@@ -6,7 +6,7 @@ describe('Pengujian Fungsi Matematika', function() {
         expect(tambah(10, 5)).to.equal(15);
     });
     it('Fungsi Pengurangan : ', function() {
-        expect(kurang(10, 5)).to.equal(5);
+        expect(kurang(-10, -2)).to.equal(-8);
     });
     it('Fungsi Perkalian : ', function() {
         expect(kali(10, 5)).to.equal(50);
